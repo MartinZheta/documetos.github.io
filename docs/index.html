@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="logo">
+        <img src="imagenes/logo.png" alt="Logo de alura">
+    </header>
+    <main class="caja-grande">
+        <section class="caja-izquierda">
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto que desea encriptar o desencriptar"></textarea>
+            <div class="instrucciones">
+                <img src="imagenes/frame.png" alt="Minúsculas sin acentos">
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="botonEncriptar()">
+                    Encriptar
+                </button>
+                <button class="desencriptar" onclick="botonDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>        
+        <section class="caja-derecha">
+            <textarea class="mensaje" cols="18" rows="8"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>        
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p class="copyright">&copy Copyright Mr Zheta Developments</p>
+</footer>
+</html>

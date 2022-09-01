@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 960px;
+    height: 600px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    float: left;
+    margin-top: 1%;
+    width: 100%;
+    height: 8%;  
+}
+
+.caja-grande {
+    padding: 3%;
+    height: 100%;
+    width: 102%;
+    background: linear-gradient(#E9ECF8, lightblue, rgb(110, 110, 210) 60%);
+}
+
+.caja-izquierda {
+    float: left;
+    height: 60%;
+    width: 55%;  
+}
+
+.input-texto {
+    float: left;
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 70%;
+    width: 100%;
+    font-size: 18px;
+}
+
+.instrucciones {
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+
+.botones {
+    float: left;
+    height: auto;
+    width: 90%;
+    border-radius: 9px;
+}
+
+.encriptar {
+    margin-top: 2%;
+    margin-left: 20%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background:  rgb(0, 0, 90); 
+    padding: 12px;
+    height: 25%;
+    width: 35%;
+    border-radius: 9px;
+}
+
+.desencriptar {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(0, 0, 90); 
+    padding: 12px;
+    height: 25%;
+    width: 35%;
+    border-radius: 9px;
+}
+
+.caja-derecha {
+    float: left;
+    height: 65%;
+    width: 40%;
+}
+
+.mensaje {
+    float: left;
+    margin-top: 2%;
+    margin-left: 35%;
+    height: 75%;
+    width: 70%;
+    font-size: 18px;
+    background-image: url("imagenes/messi.png");
+    background-size: 275px;
+    margin-bottom: 4%;
+    display: block;
+}
+
+.copiar {
+    margin-top: 5%;
+    margin-left: 52%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: rgb(0, 0, 90); 
+    padding: 12px;
+    width: 35%;
+    border-radius: 9px;
+}
+ 
+.copyright {
+    margin-top: -25%;
+    margin-left: 50px; 
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin-left: 75%;
+}
+
