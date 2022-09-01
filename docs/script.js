@@ -53,6 +53,6 @@ function copiar() {
     mensaje.select();
     navigator.clipboard.writeText(mensaje.value)
     mensaje.value = "";
-    alert("Su texto fue vCopiado")
+    alert("Su texto fue Copiado")
 }
 // Con "navigator.clipboard.writeText" capturamos al portapapeles el evento "mensaje.value = textoEncriptado"
